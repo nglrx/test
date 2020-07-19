@@ -1,0 +1,9 @@
+<ul class="links">
+  <li *ngFor="let stringPipe of stringPipes">
+    <h4 class="link">
+      <a [routerLink]="stringPipe.path">{{ stringPipe.title }}</a>
+    </h4>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>

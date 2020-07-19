@@ -11,6 +11,10 @@ export class PipesComponent implements OnInit {
     {
       title: 'Generic',
       path: 'generic'
+    },
+    {
+      title: 'String',
+      path: 'string'
     }
   ];
 

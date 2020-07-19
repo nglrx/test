@@ -12,6 +12,10 @@ const routes: Routes = [
         path: 'generic',
         loadChildren: () => import('./generic-pipes/generic-pipes.module').then(m => m.GenericPipesModule)
       },
+      {
+        path: 'string',
+        loadChildren: () => import('./string-pipes/string-pipes.module').then(m => m.StringPipesModule)
+      },
       { path: '', redirectTo: 'generic', pathMatch: 'full' }
     ]
   }
